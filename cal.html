@@ -1,0 +1,127 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> calculator</title>
+     <link rel="stylesheet" href="cal.css">
+ </head>
+ <body>
+     
+
+     
+
+
+
+    <form name="form1" class="class1" action="cal.html" method="POST">
+        <input type="text" class="screen1" name="answer" >
+           <br>
+    </br>
+
+    <input value="C" class="button" onclick="form1.answer.value=' '">
+    <input value="<" class="button" onclick="form1.answer.value=form1.answer.value.substring(0,form1.answer.value.length*1-1)">
+    
+    <input value="00" class="button" onclick="form1.answer.value+='00'">
+    
+    <input value="/" class="operpratar" onclick="form1.answer.value+='/'" >
+    <br>
+   </br>
+
+
+    <input   value="7" class="button" onclick="form1.answer.value+='7'" >
+    <input value="8"  class="button" onclick="form1.answer.value+='8'" >
+    
+    <input value="9" class="button" onclick="form1.answer.value+='9'" >
+    
+    <input value="*" class="operpratar" onclick="form1.answer.value+='*'" >
+    <br>
+   </br>
+    
+    <input value="4" class="button" onclick="form1.answer.value+='4'" >
+    
+    <input value="5" class="button" onclick="form1.answer.value+='5'" >
+    
+    <input value="6" class="button" onclick="form1.answer.value+='6'" >
+    <input value="-" class="operpratar" onclick="form1.answer.value+='-'">;
+        <br>
+</br>
+
+    <input value="1" class="button" onclick="form1.answer.value+='1'" >
+    
+    <input value="2" class="button" onclick="form1.answer.value+='2'" >
+    
+    <input value="3" class="button" onclick="form1.answer.value+='3'" >
+    <input value="+" class="operpratar" onclick="form1.answer.value+='+'" >
+      <br>
+     </br>
+
+    <input value="0" class="button" onclick="form1.answer.value+='0'" >
+    
+    <input value="." class="button" onclick="form1.answer.value+='.'" >
+    
+    <input value="=" class="operpratar" onclick="form1.answer.value=eval(form1.answer.value)" >
+    
+   
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </body>
+ </html>
